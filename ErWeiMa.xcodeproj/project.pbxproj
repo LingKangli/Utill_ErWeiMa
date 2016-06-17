@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667F147F1D122DE6001013EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F147E1D122DE6001013EC /* AppDelegate.swift */; };
+		667F14811D122DE6001013EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F14801D122DE6001013EC /* ViewController.swift */; };
+		667F14841D122DE6001013EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667F14821D122DE6001013EC /* Main.storyboard */; };
+		667F14861D122DE6001013EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667F14851D122DE6001013EC /* Assets.xcassets */; };
+		667F14891D122DE6001013EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667F14871D122DE6001013EC /* LaunchScreen.storyboard */; };
+		667F14911D123CEE001013EC /* TCErWeiMaProductFac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F14901D123CEE001013EC /* TCErWeiMaProductFac.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		667F147B1D122DE6001013EC /* ErWeiMa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErWeiMa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		667F147E1D122DE6001013EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		667F14801D122DE6001013EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		667F14831D122DE6001013EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		667F14851D122DE6001013EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		667F14881D122DE6001013EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		667F148A1D122DE6001013EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667F14901D123CEE001013EC /* TCErWeiMaProductFac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCErWeiMaProductFac.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667F14781D122DE6001013EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667F14721D122DE6001013EC = {
+			isa = PBXGroup;
+			children = (
+				667F147D1D122DE6001013EC /* ErWeiMa */,
+				667F147C1D122DE6001013EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		667F147C1D122DE6001013EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667F147B1D122DE6001013EC /* ErWeiMa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667F147D1D122DE6001013EC /* ErWeiMa */ = {
+			isa = PBXGroup;
+			children = (
+				667F147E1D122DE6001013EC /* AppDelegate.swift */,
+				667F14801D122DE6001013EC /* ViewController.swift */,
+				667F14821D122DE6001013EC /* Main.storyboard */,
+				667F14851D122DE6001013EC /* Assets.xcassets */,
+				667F14871D122DE6001013EC /* LaunchScreen.storyboard */,
+				667F148A1D122DE6001013EC /* Info.plist */,
+				667F14901D123CEE001013EC /* TCErWeiMaProductFac.swift */,
+			);
+			path = ErWeiMa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		667F147A1D122DE6001013EC /* ErWeiMa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667F148D1D122DE6001013EC /* Build configuration list for PBXNativeTarget "ErWeiMa" */;
+			buildPhases = (
+				667F14771D122DE6001013EC /* Sources */,
+				667F14781D122DE6001013EC /* Frameworks */,
+				667F14791D122DE6001013EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ErWeiMa;
+			productName = ErWeiMa;
+			productReference = 667F147B1D122DE6001013EC /* ErWeiMa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		667F14731D122DE6001013EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "凌康丽";
+				TargetAttributes = {
+					667F147A1D122DE6001013EC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 667F14761D122DE6001013EC /* Build configuration list for PBXProject "ErWeiMa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 667F14721D122DE6001013EC;
+			productRefGroup = 667F147C1D122DE6001013EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667F147A1D122DE6001013EC /* ErWeiMa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		667F14791D122DE6001013EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667F14891D122DE6001013EC /* LaunchScreen.storyboard in Resources */,
+				667F14861D122DE6001013EC /* Assets.xcassets in Resources */,
+				667F14841D122DE6001013EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		667F14771D122DE6001013EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667F14811D122DE6001013EC /* ViewController.swift in Sources */,
+				667F14911D123CEE001013EC /* TCErWeiMaProductFac.swift in Sources */,
+				667F147F1D122DE6001013EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		667F14821D122DE6001013EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667F14831D122DE6001013EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		667F14871D122DE6001013EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667F14881D122DE6001013EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		667F148B1D122DE6001013EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		667F148C1D122DE6001013EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		667F148E1D122DE6001013EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ErWeiMa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.ErWeiMa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		667F148F1D122DE6001013EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ErWeiMa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.ErWeiMa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		667F14761D122DE6001013EC /* Build configuration list for PBXProject "ErWeiMa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667F148B1D122DE6001013EC /* Debug */,
+				667F148C1D122DE6001013EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667F148D1D122DE6001013EC /* Build configuration list for PBXNativeTarget "ErWeiMa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667F148E1D122DE6001013EC /* Debug */,
+				667F148F1D122DE6001013EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 667F14731D122DE6001013EC /* Project object */;
+}
